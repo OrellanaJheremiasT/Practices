@@ -11,6 +11,18 @@ public class Product {
         this.productUnits = productUnits;
     }
 
+    @Override
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(
+                String.format("%-10S %8.2f %8d",productName,productPrice,productUnits)
+        
+        );
+        
+        return sb.toString();
+    
+    }
+
     public int getProductUnits() {
         return productUnits;
     }
