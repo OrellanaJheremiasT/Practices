@@ -9,9 +9,8 @@ public class ProductPrinter {
                  String.format("%-10S %8S %8S", "Name","Price","Units")
         );
         System.out.println(sb.toString());
-        for(int i=0;i<data.length;i++){
-            System.out.println(data[i].toString());
-
+        for (Product data1 : data) {
+            System.out.println(data1.toString());
         }
 
     }
