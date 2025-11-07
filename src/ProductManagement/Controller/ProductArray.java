@@ -3,10 +3,10 @@ package ProductManagement.Controller;
 import ProductManagement.Model.Product;
 import java.util.Scanner;
 
-public class productArrangement {
+public class ProductArray {
     private Product[] products;
 
-    public productArrangement(int n){
+    public ProductArray(int n){
         products = new Product[n];
     }
 

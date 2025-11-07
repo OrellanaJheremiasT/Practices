@@ -2,7 +2,7 @@ package ProductManagement.Controller;
 
 import ProductManagement.Model.Product;
 
-public class printProduct {
+public class ProductPrinter {
     public static void print(Product[] data){
         StringBuilder sb= new StringBuilder();
         sb.append(
