@@ -11,7 +11,7 @@ public class productView {
         int n = sc.nextInt();
         
         ProductArray productArray= new ProductArray(n);
-        productArray.addProducts();
+        productArray.addProduct();
         
         ProductPrinter.print(productArray.getProducts());
     }
